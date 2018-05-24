@@ -1,0 +1,82 @@
+/**
+ * Home Work 1
+ **/
+
+* {
+  box-sizing: border-box; 
+  /* box-align: center; */
+  text-align: center;
+}
+
+body {
+ background: #777;
+ width:960px;
+ Color: #777;
+ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ font-size: 18px
+}
+
+header, nav, aside, footer, section {
+  background: #ebebeb;
+}
+
+header {
+ padding: 20px;
+ margin-bottom: 4px;
+}
+
+nav {
+ padding: 20px;
+ /* margin-bottom: 4px; */
+}
+
+section {
+ width: 472px;
+ padding-top: 28px;
+ padding-right: 15px;
+ padding-left: 15px;
+ padding-bottom: 15px;
+ margin-top: 16px;
+ margin-bottom: 8px;
+ margin-right:8px;
+ float: left;
+}
+aside {
+  width: 472px;
+  height: 226.07px;
+  padding-right: 3px;
+  float: left;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 8px;
+  content: 30px;
+ }
+
+article {
+  background: #777;
+  padding: 10px;  
+}
+
+paragraph {
+ color: #777;
+}
+
+h1{
+  color: #777;
+  background: #ebebeb;
+}
+
+footer {
+  clear: both;
+  padding: 20px;
+  width: 100%;
+  background: #ccc;
+}
+
+.articles {
+  width: 100%;
+  background: #ebebeb;
+  height: 100%;
+  padding-right: 3px;
+  padding-left: 3px;
+}
